@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Digit classifier</title>
+	</head>
+	<body>
+		<h2>Draw a digit</h2>
+
+		<canvas id="canvas" width="280" height="280"></canvas>
+
+		<div class="controls">
+			<button id="clearBtn">Clear</button>
+			<button id="predictBtn">Predict</button>
+
+			<label>
+				Brush size:
+				<input
+					id="brushRange"
+					type="range"
+					min="4"
+					max="40"
+					value="20"
+				/>
+			</label>
+		</div>
+
+		<p id="result"></p>
+	</body>
+</html>
