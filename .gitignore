@@ -1,6 +1,5 @@
 /backend/.venv/
 /backend/__pycache__
 /backend/model/__pycache__
-*__init__.py
 /backend/model/data
 *.pth
